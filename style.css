@@ -1,0 +1,123 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    /* background-color: rgba(150, 138, 113, 0.5); */
+    background: linear-gradient(90deg, rgba(108,66,7,1) 0%, rgba(3,17,28,1) 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo {
+    margin: 10px 0;
+    font-weight: 900;
+    font-size: 24px;
+    color: white;
+}
+
+.right-nav {
+    margin: 10px 0;
+    display: flex;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.right-nav a {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+
+#main {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #00cec9;
+    background-image: url(./background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+}
+
+#addBtn {
+    position: fixed;
+    right: 10px;
+    top: 70px;
+    background-color: #1e4e5d;
+    color: antiquewhite;
+    padding: 10px;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+}
+
+.note {
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    margin: 55px;
+    margin-top: 80px;
+}
+
+.tool {
+    width: 100%;
+    background-color: #2d3436;
+    color: white;
+    padding: 5px;
+    display: flex;
+    justify-content: end;
+}
+
+.tool i {
+    padding: 5px;
+    cursor: pointer;
+}
+
+.note textarea {
+    border: none;
+    width: 100%;
+    height: 100%;
+    resize: none;
+    padding: 20px;
+    font-size: 25px;
+    font-weight: 800;
+
+}
+
+.note textarea:focus {
+    border: 0;
+    outline: 0;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    /* opacity: 0.5; */
+  background-color: rgba(0, 0, 0, 0.5);
+
+    
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer h6 {
+    font-size: 20px;
+    font-weight: 800;
+}
